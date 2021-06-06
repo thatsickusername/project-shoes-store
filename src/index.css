@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Montserrat' !important;
+    overflow-x: hidden;
+    background-color: rgb(230, 230, 230);
+}

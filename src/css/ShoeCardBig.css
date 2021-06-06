@@ -1,0 +1,92 @@
+.shoeCardContainer {
+    height: auto;
+    background-color: rgb(230, 230, 230);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.shoeCardContainer .card {
+    height: 560px;
+    width: 960px;
+    margin: auto;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+    box-shadow:  8px 8px 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.shoeCardContainer .card .cardText {
+    background-color: white;
+    display: grid;
+    place-content: center;
+}
+
+.cardText .textContainer {
+    height: auto;
+    width: 370px;
+    padding: 20px;
+}
+
+.shoeCardContainer .card .cardText .textContainer h2 {
+    font-size: 18px;
+    
+}
+
+.textContainer .heading {
+    color:rgb(22, 22, 22);
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.textContainer .subText {
+    color: #6e6e73;
+    padding-bottom: 50px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.textContainer button {
+    font-family: 'Montserrat' !important;
+    border: none;
+    width: 120px;
+    height: auto;
+    padding: 10px 0;
+    border-radius: 20px;
+    background-color: #0071e3;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.buyNow {
+    margin-right: 50px;
+}
+
+.textContainer button:hover {
+    transition: 0.3s;
+    background-color: #2391ff;
+}
+
+.shoeCardContainer .card .image {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 480px 40px;
+}
+
+.shoeCardContainer .card .image img{
+    width: 100%;
+    -webkit-filter: drop-shadow(18px 28px 1px rgba(0, 0, 0, 0.855));
+    filter: drop-shadow(20px 5px 10px rgba(0, 0, 0, 0.15));
+}
+
+.shoeCardContainer .card .shoeOne {
+    background-color: #caffcf;
+}
+
+
+.shoeCardContainer .card .shoeTwo {
+    background-color: #ffc6c0;
+    
+}

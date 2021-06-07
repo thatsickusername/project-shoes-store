@@ -18,7 +18,7 @@ function ShoeCart() {
             }
 
             <div className="proceedButton">
-                <h4> Your total order costs: <span>${ hello } </span></h4>
+                <h4> Your total order costs: <span>${ totalPrice } </span></h4>
             </div>
         </div>
     );

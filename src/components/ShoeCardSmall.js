@@ -15,7 +15,7 @@ function ShoeCardSmall(props) {
 
     return (
             <div className="box">
-                <img className="productImage"src={props.imgsrc}/>
+                <img alt="meaningfull text" className="productImage"src={props.imgsrc}/>
                 <div className="productText">
                     <h2 className="productTitle">{props.name}</h2>
                     <h4 className="productPrice"> ${props.price}</h4>

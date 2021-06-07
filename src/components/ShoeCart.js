@@ -7,7 +7,8 @@ function ShoeCart() {
 
     const [cartItems, setCartItems ] = useContext(ProductsContext)
     var hello = 0
-    const totalPrice = cartItems.map((item) => {hello += item.price})
+    const totalPrice = cartItems.map((item) => {hello += item.price
+    return hello})
     return (
         <div className="ShoeCart">
             <h1>You have {cartItems.length} items in your Shopping Cart</h1>

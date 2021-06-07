@@ -11,7 +11,7 @@ function Navbar() {
                 
                 <div class="media">
                 <Link className="linkIcon" to='/'>
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-home"></i>
                 </Link>
                 </div>
             </div>

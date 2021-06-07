@@ -1,8 +1,34 @@
 .ShoeCardLong {
     width: 100%;
-    height: 200px;
+    height: 207px;
+    padding: 20px;
     background-color: white;
     margin: 30px 0;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
     box-shadow:  8px 8px 30px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.cartImage {
+    height: 177px;
+    width: 177px;
+}
+
+.cartText {
+    padding: 30px 40px;
+    flex: 2.5;
+}
+
+.cartText h5 {
+    padding-top: 10px;
+    color: #6e6e73;
+    font-weight: 600;
+}
+
+.cartButtons {
+    flex: 2;
+}
+
+.cartPrice {
+    padding-top: 30px;
+    flex: 1;
 }

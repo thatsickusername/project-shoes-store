@@ -9,16 +9,16 @@ function ShoeCardSmall(props) {
     const addToCart = (e) => {
         e.preventDefault();
         const addToCartId = cartItems.length + 1
-        setCartItems( prevCartItems => [...prevCartItems, {name: props.name, id: addToCartId}])
+        setCartItems( prevCartItems => [...prevCartItems, {img: props.imgsrc, name: props.name, price: props.price, id: addToCartId}])
     }
 
 
     return (
             <div className="box">
-                <div className="productImage"></div>
+                <img className="productImage"src={props.imgsrc}/>
                 <div className="productText">
                     <h2 className="productTitle">{props.name}</h2>
-                    <h4 className="productPrice">{props.price}</h4>
+                    <h4 className="productPrice"> ${props.price}</h4>
                     <button className="productToCart" onClick={addToCart} >Add To Cart</button>
                 </div>
                 

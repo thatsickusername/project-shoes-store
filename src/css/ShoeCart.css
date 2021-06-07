@@ -4,3 +4,19 @@
     height: auto;
 }
 
+.ShoeCart h1 {
+    margin-top: 40px;
+}
+
+.proceedButton{
+    margin-bottom: 50px;
+}
+.proceedButton h4 {
+    text-align: end;
+}
+
+.proceedButton h4 span {
+    color: #0071e3;
+    font-size: 25px;
+}
+

@@ -6,16 +6,20 @@ import ShoeCardLong from './ShoeCardLong';
 function ShoeCart() {
 
     const [cartItems, setCartItems ] = useContext(ProductsContext)
-
-
+    var hello = 0
+    const totalPrice = cartItems.map((item) => {hello += item.price})
     return (
         <div className="ShoeCart">
-            <h2>all the items in your cart</h2>
+            <h1>You have {cartItems.length} items in your Shopping Cart</h1>
             {
                 cartItems.map(cartItem => (
-                    <ShoeCardLong key={setCartItems.id} name={cartItem.name}/>
+                    <ShoeCardLong key={setCartItems.id} imgsrc={cartItem.img} name={cartItem.name} price={cartItem.price}/>
                 ))
             }
+
+            <div className="proceedButton">
+                <h4> Your total order costs: <span>${ hello } </span></h4>
+            </div>
         </div>
     );
 }

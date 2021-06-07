@@ -1,0 +1,15 @@
+.sectionQuotes {
+    background-color: rgb(230, 230, 230);
+    height: 200px;
+    display: grid;
+    place-content: center;
+}
+
+.qoutesText {
+    font-size: 70px;
+    color:rgb(22, 22, 22);
+}
+
+.qoutesText span {
+    color: #0071e3;
+}

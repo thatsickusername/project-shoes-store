@@ -1,4 +1,3 @@
-import React from 'react';
 import '../css/ShoeQuote.css'
 
 function ShoeQuote() {

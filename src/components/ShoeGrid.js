@@ -1,4 +1,3 @@
-import React from 'react';
 import '../css/ShoeGrid.css'
 import smolShoe from '../images/smolShoe.png'
 import bigShoe from '../images/bigShoe.png'

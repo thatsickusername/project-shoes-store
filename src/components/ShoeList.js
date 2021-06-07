@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import {useState} from 'react';
 import '../css/ShoeList.css'
 import ShoeCardSmall from './ShoeCardSmall';
 

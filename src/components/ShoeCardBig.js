@@ -11,8 +11,9 @@ function ShoeCardBig() {
     const addToCart = (e) => {
         e.preventDefault();
         const addToCartId = cartItems.length + 1
-        setCartItems( prevCartItems => [...prevCartItems, {name: 'The big Box', id: addToCartId}])
+        setCartItems( prevCartItems => [...prevCartItems, {name: 'The big Box', id: addToCartId, img: bigShoeCard, price: 200}])
     }
+    // {img: props.imgsrc, name: props.name, price: props.price, id: addToCartId}
 
     return (
         <div>

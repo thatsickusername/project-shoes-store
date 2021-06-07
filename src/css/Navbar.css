@@ -50,3 +50,19 @@
     transition: 0.3s;
     color: rgb(82, 82, 82);
 }
+
+.fa-shopping-bag::after{
+    position:absolute;
+    right:-12px;
+    top:-12px;
+    max-width: 10px;
+    max-height: 10px;
+    line-height:8px;
+    padding:5px;
+    color:#fff;
+    background-color:#da2c2c;
+    font-size:8px;
+    border-radius:20px;
+    content:attr(data-badge);
+    border:solid 1px #c93a3a;
+}

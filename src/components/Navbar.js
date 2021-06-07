@@ -1,7 +1,12 @@
 import { Link } from 'react-router-dom';
+import {useContext} from 'react';
+import { ProductsContext } from '../ProductContext'
 import '../css/Navbar.css'
 
 function Navbar() {
+
+    const [cartItems, setCartItems ] = useContext(ProductsContext)
+
     return (
         <div>
         
@@ -20,7 +25,7 @@ function Navbar() {
                 <div class="logo">LogIn</div>
                 <div class="media">
                     <Link className="linkIcon" to='/cart'>
-                        <i class="fas fa-shopping-bag"></i>
+                        <i class="fas fa-shopping-bag" data-badge={cartItems.length}></i>
                     </Link>
                 </div>
             </div>

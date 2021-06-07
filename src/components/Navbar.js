@@ -5,7 +5,7 @@ import '../css/Navbar.css'
 
 function Navbar() {
 
-    const [cartItems, setCartItems ] = useContext(ProductsContext)
+    const [cartItems,] = useContext(ProductsContext)
 
     return (
         <div>

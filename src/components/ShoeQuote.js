@@ -3,8 +3,8 @@ import '../css/ShoeQuote.css'
 function ShoeQuote() {
     return (
         <div>
-            <div class="sectionQuotes">
-                <h1 class="qoutesText">
+            <div className="sectionQuotes">
+                <h1 className="qoutesText">
                     MAKE A <span>STATE</span>MENT
                 </h1>
             </div>

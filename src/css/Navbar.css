@@ -1,5 +1,4 @@
 .navigation {
-    
     position: fixed;
     top: 0;
     height: 100%;
@@ -9,7 +8,7 @@
     z-index: 2;
 }
 
-.one {
+.navone {
     left: 0;
 }
 
@@ -17,7 +16,7 @@
     width: 300px;
 }
 
-.two {
+.navtwo {
     right: 0;
 }
 
@@ -66,3 +65,4 @@
     content:attr(data-badge);
     border:solid 1px #c93a3a;
 }
+

@@ -10,22 +10,22 @@ function Navbar() {
     return (
         <div>
         
-            <div class="navigation one" id="navleft">
+            <div className="navigation navone" id="navleft">
                 
-                    <div class="logo">Edge</div>
+                    <div className="logo">Edge</div>
                 
-                <div class="media">
+                <div className="media">
                 <Link className="linkIcon" to='/'>
-                    <i class="fas fa-home"></i>
+                    <i className="fas fa-home"></i>
                 </Link>
                 </div>
             </div>
 
-            <div class="navigation two">
-                <div class="logo">LogIn</div>
-                <div class="media">
+            <div className="navigation navtwo">
+                <div className="logo">LogIn</div>
+                <div className="media">
                     <Link className="linkIcon" to='/cart'>
-                        <i class="fas fa-shopping-bag" data-badge={cartItems.length}></i>
+                        <i className="fas fa-shopping-bag" data-badge={cartItems.length}></i>
                     </Link>
                 </div>
             </div>

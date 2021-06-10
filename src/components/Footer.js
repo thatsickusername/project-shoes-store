@@ -3,10 +3,10 @@ import '../css/Footer.css'
 function Footer() {
     return (
         <div>
-           <div class="footer">
-            <div class="footerMenu">
-            <div class="col_1">
-                <div class="title">
+           <div className="footer">
+            <div className="footerMenu">
+            <div className="col_1">
+                <div className="title">
                     Company  
                 </div>  
                 <ul>
@@ -16,8 +16,8 @@ function Footer() {
                     <li>Out Of Words</li>
                 </ul>
             </div>
-            <div class="col_2">
-                <div class="title">
+            <div className="col_2">
+                <div className="title">
                     Help & Support 
                 </div>  
                 <ul>
@@ -26,8 +26,8 @@ function Footer() {
                     <li>Terms & Conditions</li>
                 </ul>
             </div>
-            <div class="col_3">
-                <div class="title">
+            <div className="col_3">
+                <div className="title">
                     Services  
                 </div>  
                 <ul>
@@ -39,7 +39,7 @@ function Footer() {
             </div>
             </div>
 
-            <div class="socialMedia">
+            <div className="socialMedia">
                 <p>Copyright February 2021 © EDGE.</p>
             </div>
         </div>

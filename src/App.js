@@ -9,6 +9,7 @@ import ShoeGrid from './components/ShoeGrid'
 import ShoeList from './components/ShoeList'
 import {ProductsProvider} from './ProductContext'
 import ShoeQuote from './components/ShoeQuote';
+import ScrollToTop from './ScrollToTop';
 
 
 function App() {
@@ -27,13 +28,25 @@ function App() {
             </ProductsProvider>
           </Route>
 
+          <Route path='/collections' exact>
+            <ProductsProvider> 
+              <Navbar/>
+              <ShoeQuote/>
+              <ShoeList/>
+              <Footer/>
+            </ProductsProvider>
+          </Route>
+
           <Route path='/cart' exact>
             <ProductsProvider> 
                 <Navbar/>
                 <ShoeCart/>
               </ProductsProvider>
           </Route>
+
         </Switch>
+
+        <ScrollToTop/>
       </Router>
     </div>
   );
